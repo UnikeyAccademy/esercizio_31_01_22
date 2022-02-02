@@ -31,7 +31,7 @@ public class Distributore {
         } else if (auto.getAlimentazione().equals("Gasolio")) {
             deposito -= pagato/euroPerLitroGasolio;
         } else {
-            System.out.println("Ho sbagliato pompa fratelli");
+            System.out.println("Tipo alimentazione non riconosciuto");
         }
         System.out.println("Nel deposito sono rimasti: " + deposito + " litri di carburante");
     }
